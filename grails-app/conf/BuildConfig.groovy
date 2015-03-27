@@ -58,12 +58,12 @@ grails.project.dependency.resolution = {
     build ":tomcat:7.0.55"
 
     // https://github.com/ikakara-team/grails-api-echo
-    compile ':api-echo:0.1'
+    compile ':api-echo:0.2'
     
     // Dave - follow instructions from here: https://github.com/ikakara-team/grails-simple-marshaller
     //compile ':simple-marshaller:0.1.2'
     // Dave - follow instructions from here: https://github.com/ikakara-team/grails-aws-instance
-    //compile ':aws-instance:0.3.3'
+    //compile ':aws-instance:0.3.7'
 
     // Dave - follow instructions from here: https://github.com/ikakara-team/grails-spring-security-userstore
     //compile ':spring-security-core:2.0-RC4'
@@ -75,7 +75,7 @@ grails.project.dependency.resolution = {
     compile ":asset-pipeline:1.9.9"
 
     // plugins needed at runtime but not for compilation
-    runtime ":hibernate4:4.3.6.1" // or ":hibernate:3.6.10.18"
+    runtime ":hibernate4:4.3.8.1" // or ":hibernate:3.6.10.19"
     runtime ":database-migration:1.4.0"
     runtime ":jquery:1.11.1"
 
